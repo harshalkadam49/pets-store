@@ -57,7 +57,7 @@ function DashboardLayout(props) {
 
   const onRedirect = (URL) => {
     console.log(URL);
-    let redirectUrl = process.env.NEXT_PUBLIC_BASE_URL + URL;
+    let redirectUrl = URL;
     router.push(redirectUrl);
   };
 
